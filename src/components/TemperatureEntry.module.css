@@ -4,6 +4,7 @@
     margin: 0rem;
     background-color: #fafafa;
     flex-grow : 1;
+    box-shadow: 3px 3px 8px 2px rgb(211, 211, 211);
 }
 
 .content {
@@ -40,6 +41,7 @@
 }
 
 .item input {
+    font-family: 'Helvetica Neue', 'Montserrat', sans-serif;
     font-size: 1rem;
     font-weight: 300;
     margin: 0;
@@ -52,6 +54,7 @@
 .date {
     display:  block;
     width: 23%;
+    font-family: 'Helvetica Neue', 'Montserrat', sans-serif;
 }
 
 .textInput {
@@ -67,6 +70,8 @@
 
 .delete {
     display:  block;
+    border: hidden;
+    background: transparent;
     width: 8%;
 }
 
