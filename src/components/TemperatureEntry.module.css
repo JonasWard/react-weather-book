@@ -93,25 +93,25 @@
   }
 
 .cold{
-color: #3333ff;
+color: rgb(51, 51, 255);
 }
 
 .hot{
-    color: #ff3333;
+    color: rgb(255, 51, 51);
 }
 
 .normal{
-    color: #333333;
+    color: rgb(51, 51, 51);
 }
 
 .cold input{
-    color: #3333ff;
+    color: rgb(51, 51, 255);
 }
 
 .hot input{
-    color: #ff3333;
+    color: rgb(255, 51, 51);
 }
 
 .normal input{
-    color: #333333;
+    color: rgb(51, 51, 51);
 }
