@@ -1,0 +1,9 @@
+.content {
+    height: 70%;
+    background-color: "#f9f9f9";
+    padding: 5rem;
+    border: 5rem;
+    margin: 1rem;
+    border-radius: 15px;
+    display: block;
+}

@@ -1,0 +1,117 @@
+.globalBox {
+    border-radius: 10px;
+    border: 0rem;
+    margin: 0rem;
+    background-color: #fafafa;
+    flex-grow : 1;
+}
+
+.content {
+    box-sizing: border-box;
+    display: block;
+    overflow:auto;
+    height: 240px;
+}
+
+.titleLine {
+    margin: 0;
+    border: 0;
+    padding: .2rem;
+    display: flex;
+    font-size: 1rem;
+    justify-content: flex-start;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: .1rem solid grey;
+    font-weight: 900;
+}
+
+.item {
+    margin: 0;
+    border: 0;
+    padding: .2rem;
+    display: flex;
+    font-weight: 300;
+    font-size: 1rem;
+    justify-content: flex-start;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: .1rem solid grey;
+}
+
+.item input {
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    text-align: center;
+    background-color: transparent;
+}
+
+.date {
+    display:  block;
+    width: 23%;
+}
+
+.textInput {
+    text-align: center;
+    display:  block;
+    width: 23%;
+}
+
+.textInput input{
+    min-width: 3rem;
+    width: 23%;
+}
+
+.delete {
+    display:  block;
+    width: 8%;
+}
+
+@media only screen and (max-width: 600px) {
+    .date {
+        display:  block;
+        width: 44%;
+    }
+    
+    .textInput {
+        text-align: center;
+        display:  block;
+        width: 14%;
+    }
+
+    .textInput input{
+        min-width: 3rem;
+    }
+    
+    .delete {
+        display: block;
+        width: 14%;
+    }
+  }
+
+.cold{
+color: #3333ff;
+}
+
+.hot{
+    color: #ff3333;
+}
+
+.normal{
+    color: #333333;
+}
+
+.cold input{
+    color: #3333ff;
+}
+
+.hot input{
+    color: #ff3333;
+}
+
+.normal input{
+    color: #333333;
+}

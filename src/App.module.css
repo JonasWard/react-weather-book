@@ -1,0 +1,24 @@
+.global {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: rgb(237, 237, 237);
+  margin: .8rem;
+  padding: 1.2rem;
+  max-height: 490px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-top: 20px;
+  font-weight: 500;
+  text-align: end;
+}
+
+.bottomElements {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}

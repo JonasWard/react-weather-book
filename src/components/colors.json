@@ -1,0 +1,7 @@
+{
+    "rowEven": "#ffffff",
+    "rowUnEven": "#fafafa",
+    "cold": "#3333ff",
+    "hot": "#ff3333",
+    "normal": "#dddddd"
+}

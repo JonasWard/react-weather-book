@@ -2,31 +2,38 @@
     "weatherBook-version": "1.0.0",
     "projectName": "Weather of 2021",
     "projectLocation": "Zürich",
-    "unitsSource": "imperial",
-    "unitsDisplay": "imperial",
+    "isMetric": true,
     "entries": [
         {
-            "date": {
-                "d":12,
-                "y":2021,
-                "m":7
-            },
+            "id": 1,
+            "date": "2022-12-12",
             "data": {
                 "min": 14.0,
-                "max": 40.0,
-                "avg": 24.0
+                "max": 40.0
             }
         }, 
         {
-            "date": {
-                "d":18,
-                "y":2021,
-                "m":7
-            },
+            "id": 2,
+            "date": "2021-12-10",
             "data": {
                 "min": 12.0,
-                "max": 50.0,
-                "avg": 40.0
+                "max": 50.0
+            }
+        }, 
+        {
+            "id": 3,
+            "date": "2020-10-15",
+            "data": {
+                "min": 12.0,
+                "max": 50.0
+            }
+        }, 
+        {
+            "id": 4,
+            "date": "1019-01-10",
+            "data": {
+                "min": 12.0,
+                "max": 50.0
             }
         }
     ]
