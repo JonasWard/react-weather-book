@@ -210,6 +210,7 @@ function App() {
           <button className={styles.bottomElements}>save file</button> */}
           <div className={styles.bottomElements}>Total Average Temperature:</div>
           <div style={{"fontWeight": 300}} className={styles.bottomElements}>{averageValue.toFixed(2)}</div>
+          <div style={{"fontWeight": 300}} className={styles.bottomElements}>{(isMetric) ? "ºC" : "ºF"}</div>
         </div>
       </div>
     </div>
