@@ -201,14 +201,16 @@ function App() {
   }
 
   return (
-    <div className={styles.global}>
-      <Header data={{projectName: projectName, projectLocation: projectLocation}} isMetric={isMetric} updateUnits={switchUnits} updateName={updateProjectName} updateLocation={updateProjectLocation}/>
-      <EntryList entries={entries} updateEntry={timedUpdatEntry} isMetric={isMetric} newObject={addEmptyEntry} delObject={delEntry}/>
-      <div className={styles.bottom}>
-        {/* <UploadFile/>
-        <button className={styles.bottomElements}>save file</button> */}
-        <div className={styles.bottomElements}>Total Average Temperature:</div>
-        <div style={{"fontWeight": 300}} className={styles.bottomElements}>{averageValue.toFixed(2)}</div>
+    <div className={styles.centering}>
+      <div className={styles.global}>
+        <Header data={{projectName: projectName, projectLocation: projectLocation}} isMetric={isMetric} updateUnits={switchUnits} updateName={updateProjectName} updateLocation={updateProjectLocation}/>
+        <EntryList entries={entries} updateEntry={timedUpdatEntry} isMetric={isMetric} newObject={addEmptyEntry} delObject={delEntry}/>
+        <div className={styles.bottom}>
+          {/* <UploadFile/>
+          <button className={styles.bottomElements}>save file</button> */}
+          <div className={styles.bottomElements}>Total Average Temperature:</div>
+          <div style={{"fontWeight": 300}} className={styles.bottomElements}>{averageValue.toFixed(2)}</div>
+        </div>
       </div>
     </div>
   );

@@ -98,11 +98,11 @@
   }
 
 .cold{
-color: rgb(51, 51, 255);
+color: rgb(106, 115, 238);
 }
 
 .hot{
-    color: rgb(255, 51, 51);
+    color: rgb(231, 116, 81);
 }
 
 .normal{
@@ -110,11 +110,11 @@ color: rgb(51, 51, 255);
 }
 
 .cold input{
-    color: rgb(51, 51, 255);
+    color: rgb(106, 115, 238);
 }
 
 .hot input{
-    color: rgb(255, 51, 51);
+    color: rgb(231, 116, 81);
 }
 
 .normal input{

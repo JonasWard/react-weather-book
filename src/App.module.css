@@ -1,15 +1,24 @@
-.global {
+.centering {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  width: 100%;
+  justify-content: center;
+}
+
+.global {
   border-radius: 10px;
   background-color: rgb(237, 237, 237);
   margin: .8rem;
   padding: 1.2rem;
   max-height: 490px;
   box-shadow: 3px 3px 8px 2px rgb(228, 228, 228);
+  width: 100%;
 }
 
+@media only screen and (min-width: 800px) {
+  .global {
+    max-width: 800px;
+  }
+}
 .bottom {
   display: flex;
   flex-direction: row;
